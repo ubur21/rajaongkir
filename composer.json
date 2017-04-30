@@ -1,0 +1,26 @@
+{
+  name: "ubur21/rajaongkir",
+  description: "Raja Ongkir extension for Yii2",
+  type: "yii2-extension",
+  keywords: [
+    "yii2",
+    "extension",
+    "rajaongkir"
+  ],
+  license: "Apache-2.0",
+  authors: [
+    {
+      name: "Subur Legowo",
+      email: "umbur21@gmail.com"
+    }
+  ],
+  require: {
+    yiisoft/yii2: "~2.0.0",
+    rajaongkir/src: "~1.0.0"
+  },
+  autoload: {
+    psr-4: {
+      ubur21\rajaongkir\: ""
+    }
+  }
+}
